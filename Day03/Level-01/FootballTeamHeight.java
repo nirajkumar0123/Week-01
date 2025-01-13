@@ -9,7 +9,7 @@ public class FootballTeamHeight {
         // Taking user input for the heights of 11 players
         for (int i = 0; i < heights.length; i++) {
             System.out.print("Enter height of player " + (i + 1) + ": ");
-            heights[i] = sc.nextDouble();
+            heights[i] = input.nextDouble();
             sum += heights[i]; // Add the entered height to the sum
         }
         
